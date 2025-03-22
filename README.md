@@ -12,11 +12,6 @@ Contains raw RNA-Seq data that was used in this analysis. Two files are present:
 2. _unc.edu_LGG_IlluminaHiSeq_RNASeqV2.geneExp.tsv_ contains RNASeq data for low grade glioma tumors.
 Both datasets contain normalized counts and are derived from the TCGA dataset hosted on synapse.org (SynID: syn2812961). Unfortunately, the data source does not specify how counts were normalized.
 
-
-1. **`LICENSE`**: A legal protection of your work. *It is important to think deeply about the licensing of your work, and is not a decision to be made lightly. See [this useful site](https://choosealicense.com/) for more information about licensing and choosing the correct license for your project.*
-
-2. **`README.md`**: A descriptive yet succinct description of your research project and information regarding the structure outlined below.
-
 # License Information
 
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
