@@ -6,6 +6,7 @@ This repository sets out the skeleton of an organizational structure used for sc
 ### **`experiments`** 
 Contains ipynb files with all analysis code
 1. _Dimension_Reduction.ipynb_ contains all code for dimension reduction analyses, including UMAP and PCA
+2. _Differential_Expression.ipynb_ contains all code for differential expression analyses and gene ontology analysis
 
 ### **`data`** 
 Contains raw RNA-Seq data that was used in this analysis. Two files are present:
