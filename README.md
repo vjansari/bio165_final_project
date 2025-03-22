@@ -4,7 +4,8 @@
 This repository sets out the skeleton of an organizational structure used for scientific research. It loosely follows what I have used for several of my research projects and I hope it inspires you to conduct your research in an open, reproducible, and honest manner.
 
 ### **`experiments`** 
-Contains one ipynb file with all code used to process and analyze the data, as well as display the analyzed data in figures.
+Contains ipynb files with all analysis code
+1. _Dimension_Reduction.ipynb_ contains all code for dimension reduction analyses, including UMAP and PCA
 
 ### **`data`** 
 Contains raw RNA-Seq data that was used in this analysis. Two files are present:
