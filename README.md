@@ -1,7 +1,7 @@
 # Investigating the Expression Profiles of Different Stages of Glioma 
 
 ## Overview
-This repository sets out the skeleton of an organizational structure used for scientific research. It loosely follows what I have used for several of my research projects and I hope it inspires you to conduct your research in an open, reproducible, and honest manner.
+For our final project, we investigated how gene expression profiles differ between tumors of low grade glioma (LGG) and glioblastoma (GBM). In order to address this question, we employed a two-pronged approach: First we utilized dimension reduction methods to analyze bulk tumor RNA-Seq data and determine whether it clusters by tumor type. Next, we conducted differential expression analyses to identify key genes that differ in their expression levels between the two tumors. This repository contains all of the data and code used for our analyses.
 
 ### **`experiments`** 
 Contains ipynb files with all analysis code
@@ -12,6 +12,7 @@ Contains ipynb files with all analysis code
 Contains raw RNA-Seq data that was used in this analysis. Two files are present:
 1. _unc.edu_GBM_IlluminaHiSeq_RNASeqV2.geneExp.tsv_ contains RNA-Seq data for glioblastoma tumors
 2. _unc.edu_LGG_IlluminaHiSeq_RNASeqV2.geneExp.tsv_ contains RNASeq data for low grade glioma tumors.
+
 Both datasets contain normalized counts and are derived from the TCGA dataset hosted on synapse.org (SynID: syn2812961). Unfortunately, the data source does not specify how counts were normalized.
 
 # License Information
