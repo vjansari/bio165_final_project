@@ -3,19 +3,14 @@
 ## Overview
 This repository sets out the skeleton of an organizational structure used for scientific research. It loosely follows what I have used for several of my research projects and I hope it inspires you to conduct your research in an open, reproducible, and honest manner.
 
-## Layout
-
-The repository is split into seven main directories, many of which have subdirectories. This structure has been designed to be easily navigable by humans and computers alike, allowing for rapid location of specific files and instructions. Within each directory is a `README.md` file which summarizes the purpose of that directory as well as some examples where necessary. This structure may not be perfect for your intended us and may need to be modified. Each section is briefly described below. 
-
 ### **`experiments`** 
-Where all of the experimental information lives, including any *executed* code. lives. This includes pipelines, scripts, and figure files. 
- * **`processing`**: Any code used to *transform* the data into another type should live here. This can include everything from parsing of text data, image segmentation/filtering, or simulations.
- * **`analysis`**: Any code to to *draw conclusions* from an experiment or data set. This may include regression, dimensionality reduction, or calculation of various quantities.
- * **`exploratory`**: A sandbox where you keep a record of your different approaches to transformation, interpretation, cleaning, or generation of data.
- * **`figures`**: Any code used to generate figures for your finished work, presentations, or for any other use.
+Contains one ipynb file with all code used to process and analyze the data, as well as display the analyzed data in figures.
 
 ### **`data`** 
-Contains raw RNA-Seq data that was used in this analysis. Two files are present: _unc.edu_GBM_IlluminaHiSeq_RNASeqV2.geneExp.tsv_ contains RNA-Seq data for glioblastoma tumors, while _unc.edu_LGG_IlluminaHiSeq_RNASeqV2.geneExp.tsv_ contains RNASeq data for low grade glioma tumors. Both datasets contain normalized counts and are derived from the TCGA dataset hosted on synapse.org (SynID: syn2812961). Unfortunately, the data source does not specify how counts were normalized.
+Contains raw RNA-Seq data that was used in this analysis. Two files are present:
+1. _unc.edu_GBM_IlluminaHiSeq_RNASeqV2.geneExp.tsv_ contains RNA-Seq data for glioblastoma tumors
+2. _unc.edu_LGG_IlluminaHiSeq_RNASeqV2.geneExp.tsv_ contains RNASeq data for low grade glioma tumors.
+Both datasets contain normalized counts and are derived from the TCGA dataset hosted on synapse.org (SynID: syn2812961). Unfortunately, the data source does not specify how counts were normalized.
 
 
 1. **`LICENSE`**: A legal protection of your work. *It is important to think deeply about the licensing of your work, and is not a decision to be made lightly. See [this useful site](https://choosealicense.com/) for more information about licensing and choosing the correct license for your project.*
